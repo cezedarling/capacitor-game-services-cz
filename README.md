@@ -51,15 +51,8 @@ Then you need to set your Game Services Project ID in your `strings.xml` file in
 <string translatable="false"  name="game_services_project_id">YOU_APP_ID</string>
 ```
 
-- Then on your `MainActivity.class` file you will need to import and register the plugin in your onCreate method:
+No `MainActivity` registration is required for Capacitor v7 apps. The Android plugin class includes `@CapacitorPlugin(name = "CapacitorGameConnect")`, so Capacitor discovers and registers the plugin automatically during sync/build.
 
-```ts
-@Override
-public void onCreate(Bundle savedInstanceState) {
-    registerPlugin(CapacitorGameConnectPlugin.class);
-    super.onCreate(savedInstanceState);
-}
-```
 
 ## Play Games Services v2 sign-in
 
