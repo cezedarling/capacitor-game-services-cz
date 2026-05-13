@@ -1,7 +1,7 @@
 {
-  "name": "@cezedarling/capacitor-game-connect-2026",
-  "version": "6.0.0",
-  "description": "Use Game Services and Game Connect",
+  "name": "@cezedarling/capacitor-game-services-cz",
+  "version": "1.0.0",
+  "description": "Capacitor plugin for Apple Game Center and Google Play Games Services.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -11,16 +11,16 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "OpenforgeCapacitorGameConnect.podspec"
+    "CapacitorGameServicesCz.podspec"
   ],
   "author": "cezedarling",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cezedarling/capacitor-game-connect-2026.git"
+    "url": "git+https://github.com/cezedarling/capacitor-game-services-cz.git"
   },
   "bugs": {
-    "url": "https://github.com/cezedarling/capacitor-game-connect-2026/issues"
+    "url": "https://github.com/cezedarling/capacitor-game-services-cz/issues"
   },
   "keywords": [
     "capacitor",
