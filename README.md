@@ -7,7 +7,7 @@ Capacitor plugin for connecting and using services by Apple Game Center and Goog
 
 This repository is a **community-maintained fork** of the plugin originally published at `https://github.com/openforge/capacitor-game-connect`.
 
-- This maintained fork: `https://github.com/cezedarling/capacitor-game-connect-2026`
+- This maintained fork: `https://github.com/cezedarling/capacitor-game-services-cz`
 - Fork maintainer: `@cezedarling`
 
 ## Supported Capacitor versions
