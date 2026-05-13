@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license = package['license']
   s.homepage = package['repository']['url']
   s.author = package['author']
-  s.source = { :git => package['repository'].sub(/^git\+/, ''), :tag => "v#{s.version}" }
+  s.source = { :git => package['repository']['url'].sub(/^git\+/, ''), :tag => "v#{s.version}" }
   s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
   s.ios.deployment_target  = '13.0'
   s.dependency 'Capacitor'
