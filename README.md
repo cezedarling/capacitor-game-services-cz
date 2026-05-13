@@ -25,10 +25,10 @@ This fork only targets the Capacitor versions listed below. Older Capacitor vers
 
 ```bash
 # Option A: install directly from this fork
-npm install github:cezedarling/capacitor-game-connect-2026
+npm install github:cezedarling/capacitor-game-services-cz
 
 # Option B: install from a local clone/folder
-npm install ../capacitor-game-connect-2026
+npm install ../capacitor-game-services-cz
 
 npx cap sync
 ```
@@ -71,7 +71,7 @@ When using Phaser inside a Capacitor WebView, sign in before creating your first
 
 ```ts
 import { Capacitor } from '@capacitor/core';
-import { CapacitorGameConnect } from '@cezedarling/capacitor-game-connect-2026';
+import { CapacitorGameConnect } from '@cezedarling/capacitor-game-services-cz';
 
 async function initGameServices() {
   if (Capacitor.isNativePlatform()) {
