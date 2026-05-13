@@ -13,7 +13,7 @@
     "ios/Plugin/",
     "OpenforgeCapacitorGameConnect.podspec"
   ],
-  "author": "OpenForge LLC (original), cezedarling (fork maintainer)",
+  "author": "cezedarling",
   "license": "MIT",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 # Capacitor v8 Migration Checklist
 
-This checklist is focused on validating Game Center (iOS) and Google Play Games Services (Android) for this plugin after upgrading a host app from Capacitor v5 to v8.
+This checklist is focused on validating Game Center (iOS) and Google Play Games Services (Android) for this plugin after upgrading a supported host app to Capacitor v8.
 
 ## 1) Prerequisites
 

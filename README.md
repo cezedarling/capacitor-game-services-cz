@@ -1,11 +1,3 @@
-<p align="center">
-  <img src="https://s3.amazonaws.com/tw-inlineimages/467579/0/0/ff47c124a5732bf549b43532a7ac19e1.png"/>
-</p>
-<p align="center">
-  <a href="http://www.openforge.io/">Official Website</a> |
-  <a href="https://www.youtube.com/@OpenForge/videos">Subscribe to Youtube Channel</a> 
-</p>
-
 # Introduction
 Capacitor plugin for connecting and using services by Apple Game Center and Google Play Game Services. Features included are access to Sign-In, Leaderboard, and Achievements.
 
@@ -13,43 +5,19 @@ Capacitor plugin for connecting and using services by Apple Game Center and Goog
 
 ## Fork notice
 
-This repository is a **community fork** of the original OpenForge plugin.
+This repository is a **community-maintained fork** of the plugin originally published at `https://github.com/openforge/capacitor-game-connect`.
 
-- Original project (OpenForge): `https://github.com/openforge/capacitor-game-connect`
 - This maintained fork: `https://github.com/cezedarling/capacitor-game-connect-2026`
+- Fork maintainer: `@cezedarling`
 
-If you need **Capacitor v5** support, refer to the original OpenForge version.
-This fork is focused on **Capacitor v7/v8 migration support**, and may not work as expected on older Capacitor versions.
+## Supported Capacitor versions
+
+This fork only targets the Capacitor versions listed below. Older Capacitor versions should use a version of the original repository that matches their app baseline.
 
 | Capacitor Version | Support Status |
-| -----------    | :----:   |
-| Capacitor v8   | 🚧       |
-| Capacitor v7   | ✅       |
-| Capacitor v5   | ✅       |
-| Capacitor v4   | ✅       |
-| Capacitor v3   | ✅       |
-| Capacitor v2   | ❌       |
-| Capacitor v1   | ❌       |
-
-✅ - Supported
-🚧 - WIP Support
-❌ - No plans to support
-
-## Maintainers
-
-Original implementation by OpenForge. This fork is currently maintained by the community.
-
-| Role | Github |
-| ---------- | :----: |
-| Original maintainers | @Ricardo385, @paulpauldevelops, @jedihacks |
-| Fork maintainer | @cezedarling |
-
-## Example Projects
-
-Checkout these existing Ionic/Angular/Capacitor mobile game with the plugin installed and integrated:
-
-- [Rock The Steps](https://github.com/openforge/rock-the-steps-app)
-- [OpenFarm](https://github.com/openforge/openfarm-puzzle-game)
+| ----------------- | :------------: |
+| Capacitor v8      | 🚧 In progress |
+| Capacitor v7      | ✅ Supported   |
 
 # Getting Started
 
